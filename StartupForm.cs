@@ -15,6 +15,7 @@ namespace TradingBotDesktopClient
         public StartupForm()
         {
             InitializeComponent();
+            Task.Run(RunStartupHandler);
         }
     }
 }
